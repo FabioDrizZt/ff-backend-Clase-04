@@ -18,6 +18,6 @@ function crearArchivo(ruta, contenidoArchivo) {
 }
 
 const contenidoArchivo = '<h1> Hola mundo! </h1>'
-const ruta = './fileSystem/index.html'
+const ruta = './fileSystem/pages/index.html'
 crearArchivo(ruta, contenidoArchivo)
-crearArchivo('./fileSystem/contacto.html', '<h1> Pagina de contacto </h1>')
+crearArchivo('./fileSystem/pages/contacto.html', '<h1> Pagina de contacto </h1>')
